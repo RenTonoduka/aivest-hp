@@ -1,3 +1,5 @@
+import { Clock, User, Check } from "lucide-react";
+
 export function Training() {
   const programs = [
     {
@@ -71,7 +73,6 @@ export function Training() {
               key={prog.title}
               className="glass-card rounded-2xl overflow-hidden group"
             >
-              {/* Top gradient bar */}
               <div className={`h-1 bg-gradient-to-r ${prog.gradient}`} />
 
               <div className="p-7">
@@ -85,15 +86,11 @@ export function Training() {
 
                 <div className="flex flex-wrap gap-3 mb-6 text-xs text-foreground/50">
                   <span className="flex items-center gap-1">
-                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
+                    <Clock className="w-3.5 h-3.5" strokeWidth={2} />
                     {prog.duration}
                   </span>
                   <span className="flex items-center gap-1">
-                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0" />
-                    </svg>
+                    <User className="w-3.5 h-3.5" strokeWidth={2} />
                     {prog.audience}
                   </span>
                 </div>
@@ -104,9 +101,7 @@ export function Training() {
                       key={point}
                       className="flex items-start gap-2.5 text-sm text-foreground/60"
                     >
-                      <svg className="w-4 h-4 mt-0.5 text-accent-green flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                      </svg>
+                      <Check className="w-4 h-4 mt-0.5 text-accent-green flex-shrink-0" strokeWidth={2.5} />
                       {point}
                     </li>
                   ))}
