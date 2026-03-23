@@ -98,7 +98,7 @@ export function Hero() {
           </div>
 
           {/* Right: Visual */}
-          <div className="relative hidden lg:flex items-center justify-center animate-fade-in opacity-0 delay-300">
+          <div className="relative hidden lg:flex items-center justify-center">
             <div className="relative w-[420px] h-[420px]">
               {/* Center circle */}
               <div className="absolute inset-[80px] rounded-full bg-gradient-to-br from-accent-blue/10 to-accent-green/10 backdrop-blur-sm border border-white/40 flex items-center justify-center">
