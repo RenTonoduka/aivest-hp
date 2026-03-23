@@ -1,0 +1,80 @@
+import Link from "next/link";
+
+export function Footer() {
+  return (
+    <footer className="border-t border-border/50 bg-white/40 backdrop-blur-sm">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+          <div className="md:col-span-2">
+            <Link href="/" className="flex items-center gap-2 mb-4">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-blue to-accent-green flex items-center justify-center">
+                <span className="text-white font-bold text-xs">AI</span>
+              </div>
+              <span className="text-lg font-bold gradient-text-blue-green">
+                AIVEST
+              </span>
+            </Link>
+            <p className="text-sm text-foreground/50 leading-relaxed max-w-sm">
+              AIエージェント開発・AI経営支援・AI研修を通じて、
+              企業のデジタルトランスフォーメーションを加速します。
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-sm mb-4 text-foreground/80">
+              サービス
+            </h4>
+            <ul className="space-y-2.5">
+              {[
+                "AIエージェント開発",
+                "AI経営支援",
+                "AIエージェント研修",
+                "Claude Code実践研修",
+                "AIエージェント導入顧問",
+              ].map((item) => (
+                <li key={item}>
+                  <a
+                    href="#services"
+                    className="text-sm text-foreground/50 hover:text-accent-blue transition-colors"
+                  >
+                    {item}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-sm mb-4 text-foreground/80">
+              会社情報
+            </h4>
+            <ul className="space-y-2.5">
+              {["会社概要", "お問い合わせ", "プライバシーポリシー"].map(
+                (item) => (
+                  <li key={item}>
+                    <a
+                      href="#company"
+                      className="text-sm text-foreground/50 hover:text-accent-blue transition-colors"
+                    >
+                      {item}
+                    </a>
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-12 pt-8 border-t border-border/30 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-foreground/40">
+            &copy; {new Date().getFullYear()} AIVEST. All rights reserved.
+          </p>
+          <div className="flex items-center gap-1 text-xs text-foreground/30">
+            <span>Powered by</span>
+            <span className="gradient-text-blue-green font-medium">AI</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
