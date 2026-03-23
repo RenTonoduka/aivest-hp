@@ -70,11 +70,11 @@ html {
 }
 
 .animate-fade-in-up {
-  animation: fade-in-up 0.8s ease-out forwards;
+  animation: fade-in-up 0.8s ease-out both;
 }
 
 .animate-fade-in {
-  animation: fade-in 1s ease-out forwards;
+  animation: fade-in 1s ease-out both;
 }
 
 .animate-float {
