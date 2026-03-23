@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -7,12 +8,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-blue to-accent-green flex items-center justify-center">
-                <span className="text-white font-bold text-xs">AI</span>
-              </div>
-              <span className="text-lg font-bold gradient-text-blue-green">
-                AIVEST
-              </span>
+              <Image src="/logo.png" alt="AIVEST" width={32} height={32} className="w-8 h-8" />
+              <span className="text-lg font-bold gradient-text">AIVEST</span>
             </Link>
             <p className="text-sm text-foreground/50 leading-relaxed max-w-sm">
               AIエージェント開発・AI経営支援・AI研修を通じて、

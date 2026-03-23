@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { href: "#services", label: "サービス" },
@@ -31,13 +32,9 @@ export function Header() {
         }`}
       >
         <div className="flex items-center justify-between h-14 lg:h-16 px-5 lg:px-8">
-          <Link href="/" className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-blue to-accent-green flex items-center justify-center shadow-sm">
-              <span className="text-white font-bold text-xs">AI</span>
-            </div>
-            <span className="text-lg font-bold tracking-tight">
-              <span className="gradient-text-blue-green">AIVEST</span>
-            </span>
+          <Link href="/" className="flex items-center gap-2">
+            <Image src="/logo.png" alt="AIVEST" width={36} height={36} className="w-9 h-9" />
+            <span className="text-lg font-bold tracking-tight gradient-text">AIVEST</span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-7">
