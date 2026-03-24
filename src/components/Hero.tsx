@@ -160,15 +160,15 @@ export function Hero() {
                     className="flex items-center gap-4 bg-white/50 rounded-xl px-4 py-3.5 border border-foreground/5"
                   >
                     <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-warmth/8 to-warmth-light/8 flex items-center justify-center flex-shrink-0">
-                      <item.icon className="w-4.5 h-4.5 text-navy" strokeWidth={1.5} />
+                      <item.icon className="w-4.5 h-4.5 text-logic" strokeWidth={1.5} />
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="text-xs font-semibold text-foreground mb-1.5">
                         {item.label}
                       </div>
-                      <div className="w-full h-1.5 bg-navy/5 rounded-full overflow-hidden">
+                      <div className="w-full h-1.5 bg-logic/5 rounded-full overflow-hidden">
                         <div
-                          className="h-full rounded-full bg-gradient-to-r from-navy to-indigo"
+                          className="h-full rounded-full bg-gradient-to-r from-logic to-warmth"
                           style={{ width: `${item.progress}%` }}
                         />
                       </div>
@@ -193,7 +193,7 @@ export function Hero() {
             {/* Floating mini card - top right */}
             <div className="absolute -top-4 -right-4 glass rounded-xl px-4 py-3 shadow-lg animate-float">
               <div className="flex items-center gap-2">
-                <Shield className="w-4 h-4 text-navy" strokeWidth={2} />
+                <Shield className="w-4 h-4 text-logic" strokeWidth={2} />
                 <span className="text-xs font-semibold text-foreground">
                   セキュリティ対応済
                 </span>
@@ -203,7 +203,7 @@ export function Hero() {
             {/* Floating mini card - bottom left */}
             <div className="absolute -bottom-3 -left-3 glass rounded-xl px-4 py-3 shadow-lg animate-float delay-200">
               <div className="flex items-center gap-2">
-                <Zap className="w-4 h-4 text-navy-light" strokeWidth={2} />
+                <Zap className="w-4 h-4 text-logic-light" strokeWidth={2} />
                 <span className="text-xs font-semibold text-foreground">
                   24h以内に返信
                 </span>
