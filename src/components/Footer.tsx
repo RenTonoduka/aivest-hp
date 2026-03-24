@@ -30,12 +30,12 @@ export function Footer() {
                 "AIエージェント導入顧問",
               ].map((item) => (
                 <li key={item}>
-                  <a
-                    href="#services"
+                  <Link
+                    href="/services"
                     className="text-sm text-charcoal hover:text-navy transition-colors"
                   >
                     {item}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -43,24 +43,22 @@ export function Footer() {
 
           <div>
             <h4 className="font-semibold text-sm mb-4 text-foreground/80">
-              会社情報
+              情報
             </h4>
             <ul className="space-y-2.5">
               {[
-                { label: "導入事例", href: "#cases" },
-                { label: "ご利用の流れ", href: "#flow" },
-                { label: "料金プラン", href: "#pricing" },
-                { label: "会社概要", href: "#company" },
-                { label: "よくある質問", href: "#faq" },
-                { label: "お問い合わせ", href: "#contact" },
+                { label: "導入事例", href: "/cases" },
+                { label: "研修プログラム", href: "/training" },
+                { label: "会社概要", href: "/company" },
+                { label: "お問い合わせ", href: "/contact" },
               ].map((item) => (
                 <li key={item.label}>
-                  <a
+                  <Link
                     href={item.href}
                     className="text-sm text-charcoal hover:text-navy transition-colors"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

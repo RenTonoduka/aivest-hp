@@ -112,7 +112,7 @@ export function Pricing() {
                 </ul>
 
                 <a
-                  href="#contact"
+                  href="/contact"
                   className={`block text-center text-sm font-semibold py-3 rounded-xl transition-colors ${
                     plan.featured
                       ? "btn-primary"

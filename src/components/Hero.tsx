@@ -69,14 +69,14 @@ export function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-up opacity-0 delay-300">
               <a
-                href="#contact"
+                href="/contact"
                 className="btn-primary text-center inline-flex items-center justify-center gap-2 text-base"
               >
                 無料相談する
                 <ArrowRight className="w-4 h-4" strokeWidth={2} />
               </a>
               <a
-                href="#services"
+                href="/services"
                 className="btn-secondary text-center text-base"
               >
                 サービスを見る

@@ -108,7 +108,7 @@ export function Training() {
                 </ul>
 
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="block text-center text-sm font-semibold py-2.5 rounded-xl border border-navy/12 text-navy hover:bg-navy/5 transition-colors"
                 >
                   詳細を相談する

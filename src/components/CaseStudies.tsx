@@ -105,7 +105,7 @@ export function CaseStudies() {
                 </div>
 
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="inline-flex items-center gap-1.5 text-sm font-semibold text-navy hover:text-lime-dark transition-colors"
                 >
                   詳しく聞く
