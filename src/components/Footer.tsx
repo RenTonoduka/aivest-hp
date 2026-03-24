@@ -46,18 +46,23 @@ export function Footer() {
               会社情報
             </h4>
             <ul className="space-y-2.5">
-              {["会社概要", "お問い合わせ", "プライバシーポリシー"].map(
-                (item) => (
-                  <li key={item}>
-                    <a
-                      href="#company"
-                      className="text-sm text-charcoal hover:text-navy transition-colors"
-                    >
-                      {item}
-                    </a>
-                  </li>
-                )
-              )}
+              {[
+                { label: "導入事例", href: "#cases" },
+                { label: "ご利用の流れ", href: "#flow" },
+                { label: "料金プラン", href: "#pricing" },
+                { label: "会社概要", href: "#company" },
+                { label: "よくある質問", href: "#faq" },
+                { label: "お問い合わせ", href: "#contact" },
+              ].map((item) => (
+                <li key={item.label}>
+                  <a
+                    href={item.href}
+                    className="text-sm text-charcoal hover:text-navy transition-colors"
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

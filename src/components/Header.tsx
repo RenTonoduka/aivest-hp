@@ -6,10 +6,11 @@ import Image from "next/image";
 
 const navLinks = [
   { href: "#services", label: "サービス" },
-  { href: "#features", label: "特徴" },
+  { href: "#cases", label: "導入事例" },
+  { href: "#flow", label: "ご利用の流れ" },
   { href: "#training", label: "研修" },
+  { href: "#pricing", label: "料金" },
   { href: "#company", label: "会社概要" },
-  { href: "#contact", label: "お問い合わせ" },
 ];
 
 export function Header() {
