@@ -159,7 +159,7 @@ export function Hero() {
                     key={item.label}
                     className="flex items-center gap-4 bg-white/50 rounded-xl px-4 py-3.5 border border-foreground/5"
                   >
-                    <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-indigo/8 to-indigo-light/8 flex items-center justify-center flex-shrink-0">
+                    <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-warmth/8 to-warmth-light/8 flex items-center justify-center flex-shrink-0">
                       <item.icon className="w-4.5 h-4.5 text-navy" strokeWidth={1.5} />
                     </div>
                     <div className="flex-1 min-w-0">
