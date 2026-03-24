@@ -3,7 +3,7 @@ export function Company() {
     { label: "会社名", value: "株式会社AIVEST" },
     { label: "所在地", value: "栃木県佐野市" },
     { label: "代表取締役", value: "戸野塚 蓮" },
-    { label: "事業内容", value: "AIエージェント開発 / AI経営支援 / AI研修 / AI導入顧問" },
+    { label: "事業内容", value: "AI顧問事業 / AIスクール事業（ワークショップ・研修）" },
     { label: "URL", value: "ai-vest.com" },
   ];
 

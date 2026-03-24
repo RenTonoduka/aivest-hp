@@ -60,10 +60,10 @@ export function Hero() {
 
             {/* Sub headline */}
             <p className="text-lg text-charcoal leading-relaxed mb-10 max-w-lg animate-fade-in-up opacity-0 delay-200">
-              AIエージェント開発・経営支援・研修を
+              すべての経営者に、
+              <strong className="text-foreground">AI参謀を。</strong>
               <br className="hidden sm:block" />
-              ワンチームで伴走する、
-              <strong className="text-foreground">唯一のパートナー。</strong>
+              戦略を考え、実行までやる伴走型パートナー。
             </p>
 
             {/* CTA Buttons */}
