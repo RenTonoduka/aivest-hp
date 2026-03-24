@@ -5,28 +5,28 @@ export function Features() {
       title: "構想から実装まで一気通貫",
       description:
         "AI戦略の立案から、エージェント開発、社内研修、運用定着まで。すべてのフェーズをワンチームで伴走するため、意思疎通のロスがなく、スピーディに成果を出せます。",
-      gradient: "from-navy to-indigo-dark",
+      gradient: "from-logic to-indigo-dark",
     },
     {
       num: "02",
       title: "最新技術をキャッチアップ",
       description:
         "Claude・GPT・Geminiなど、日々進化するAI技術を常にキャッチアップ。最新のモデルやツールチェーンを活用し、最も効果的なソリューションを提案します。",
-      gradient: "from-indigo-light to-navy-light",
+      gradient: "from-indigo-light to-logic-light",
     },
     {
       num: "03",
       title: "実務で使える研修プログラム",
       description:
         "座学だけで終わらない実践型カリキュラム。参加者の実際の業務課題を題材にハンズオンで取り組み、研修翌日から業務に活かせるスキルを確実に身につけます。",
-      gradient: "from-indigo-dark to-navy-light",
+      gradient: "from-indigo-dark to-logic-light",
     },
     {
       num: "04",
       title: "経営視点でのAI活用",
       description:
         "技術だけでなく経営インパクトを重視。ROIを意識したAI導入計画と、組織全体でのAI活用を推進するチェンジマネジメントまで、経営者目線でサポートします。",
-      gradient: "from-navy-light to-navy",
+      gradient: "from-logic-light to-logic",
     },
   ];
 
@@ -52,7 +52,7 @@ export function Features() {
               key={f.num}
               className="glass-card rounded-2xl p-8 lg:p-10 group relative overflow-hidden"
             >
-              <span className="absolute -top-4 -right-2 text-[120px] font-black text-navy/[0.03] leading-none select-none">
+              <span className="absolute -top-4 -right-2 text-[120px] font-black text-logic/[0.03] leading-none select-none">
                 {f.num}
               </span>
 

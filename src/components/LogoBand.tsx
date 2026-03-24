@@ -20,9 +20,9 @@ export function LogoBand() {
           {logos.map((name) => (
             <div
               key={name}
-              className="px-5 py-2.5 rounded-lg bg-navy/[0.03] border border-navy/[0.06]"
+              className="px-5 py-2.5 rounded-lg bg-logic/[0.03] border border-logic/[0.06]"
             >
-              <span className="text-sm font-semibold text-navy/30">
+              <span className="text-sm font-semibold text-logic/30">
                 {name}
               </span>
             </div>

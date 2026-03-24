@@ -40,7 +40,7 @@ export function FAQ() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-warmth mb-4">
             FAQ
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">

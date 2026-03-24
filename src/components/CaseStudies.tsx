@@ -12,7 +12,7 @@ const cases = [
       { label: "成約率", value: "2.4x" },
       { label: "提案準備時間", value: "-80%" },
     ],
-    gradient: "from-navy to-navy-light",
+    gradient: "from-logic to-logic-light",
   },
   {
     Icon: Factory,
@@ -25,7 +25,7 @@ const cases = [
       { label: "不良率", value: "-90%" },
       { label: "検査コスト", value: "-65%" },
     ],
-    gradient: "from-indigo to-indigo-light",
+    gradient: "from-warmth to-warmth-light",
   },
   {
     Icon: ShoppingBag,
@@ -38,19 +38,19 @@ const cases = [
       { label: "対応時間", value: "1/3", },
       { label: "顧客満足度", value: "+42%" },
     ],
-    gradient: "from-indigo to-indigo-light",
+    gradient: "from-warmth to-warmth-light",
   },
 ];
 
 export function CaseStudies() {
   return (
     <section id="cases" className="relative py-28 lg:py-36">
-      <div className="absolute top-0 left-0 w-[500px] h-[500px] blob-indigo rounded-full opacity-40" />
-      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] blob-navy rounded-full opacity-30" />
+      <div className="absolute top-0 left-0 w-[500px] h-[500px] blob-warmth rounded-full opacity-40" />
+      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] blob-logic rounded-full opacity-30" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-warmth mb-4">
             Case Studies
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">
@@ -92,7 +92,7 @@ export function CaseStudies() {
                   {item.metrics.map((m) => (
                     <div
                       key={m.label}
-                      className="flex-1 bg-navy/[0.03] rounded-xl px-4 py-3 text-center"
+                      className="flex-1 bg-logic/[0.03] rounded-xl px-4 py-3 text-center"
                     >
                       <div className="text-xl font-black gradient-text">
                         {m.value}
@@ -106,7 +106,7 @@ export function CaseStudies() {
 
                 <a
                   href="/contact"
-                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-navy hover:text-indigo transition-colors"
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-logic hover:text-warmth transition-colors"
                 >
                   詳しく聞く
                   <ArrowUpRight className="w-3.5 h-3.5" strokeWidth={2} />

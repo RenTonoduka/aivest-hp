@@ -54,7 +54,7 @@ export function Contact() {
             <div className="space-y-6">
               {benefits.map((item) => (
                 <div key={item.title} className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo/8 to-indigo-light/8 flex items-center justify-center text-navy flex-shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo/8 to-indigo-light/8 flex items-center justify-center text-logic flex-shrink-0">
                     <item.Icon className="w-5 h-5" strokeWidth={1.5} />
                   </div>
                   <div>
@@ -88,7 +88,7 @@ export function Contact() {
                   <input
                     type="text"
                     required
-                    className="w-full px-4 py-3 rounded-xl bg-white/60 border border-foreground/8 text-sm focus:outline-none focus:border-navy/30 focus:ring-2 focus:ring-navy/8 transition-all"
+                    className="w-full px-4 py-3 rounded-xl bg-white/60 border border-foreground/8 text-sm focus:outline-none focus:border-logic/30 focus:ring-2 focus:ring-logic/8 transition-all"
                     placeholder="株式会社○○"
                   />
                 </div>
@@ -100,7 +100,7 @@ export function Contact() {
                     <input
                       type="text"
                       required
-                      className="w-full px-4 py-3 rounded-xl bg-white/60 border border-foreground/8 text-sm focus:outline-none focus:border-navy/30 focus:ring-2 focus:ring-navy/8 transition-all"
+                      className="w-full px-4 py-3 rounded-xl bg-white/60 border border-foreground/8 text-sm focus:outline-none focus:border-logic/30 focus:ring-2 focus:ring-logic/8 transition-all"
                       placeholder="山田 太郎"
                     />
                   </div>
@@ -111,7 +111,7 @@ export function Contact() {
                     <input
                       type="email"
                       required
-                      className="w-full px-4 py-3 rounded-xl bg-white/60 border border-foreground/8 text-sm focus:outline-none focus:border-navy/30 focus:ring-2 focus:ring-navy/8 transition-all"
+                      className="w-full px-4 py-3 rounded-xl bg-white/60 border border-foreground/8 text-sm focus:outline-none focus:border-logic/30 focus:ring-2 focus:ring-logic/8 transition-all"
                       placeholder="email@example.com"
                     />
                   </div>
@@ -120,7 +120,7 @@ export function Contact() {
                   <label className="block text-xs font-semibold text-charcoal mb-1.5">
                     ご興味のあるサービス
                   </label>
-                  <select className="w-full px-4 py-3 rounded-xl bg-white/60 border border-foreground/8 text-sm focus:outline-none focus:border-navy/30 focus:ring-2 focus:ring-navy/8 transition-all text-foreground/70">
+                  <select className="w-full px-4 py-3 rounded-xl bg-white/60 border border-foreground/8 text-sm focus:outline-none focus:border-logic/30 focus:ring-2 focus:ring-logic/8 transition-all text-foreground/70">
                     <option value="">選択してください</option>
                     <option>AIエージェント開発</option>
                     <option>AI経営支援</option>
@@ -137,7 +137,7 @@ export function Contact() {
                   <textarea
                     rows={4}
                     required
-                    className="w-full px-4 py-3 rounded-xl bg-white/60 border border-foreground/8 text-sm focus:outline-none focus:border-navy/30 focus:ring-2 focus:ring-navy/8 transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-xl bg-white/60 border border-foreground/8 text-sm focus:outline-none focus:border-logic/30 focus:ring-2 focus:ring-logic/8 transition-all resize-none"
                     placeholder="お気軽にご記入ください"
                   />
                 </div>

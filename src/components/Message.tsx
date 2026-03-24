@@ -3,7 +3,7 @@ import Image from "next/image";
 export function Message() {
   return (
     <section id="message" className="relative py-28 lg:py-36 overflow-hidden">
-      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] blob-navy rounded-full opacity-30" />
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] blob-logic rounded-full opacity-30" />
       <div className="absolute top-0 right-0 w-[400px] h-[400px] blob-indigo rounded-full opacity-30" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

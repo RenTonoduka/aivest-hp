@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 export function TopCTA() {
   return (
     <section className="relative py-28 lg:py-36 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-dark to-navy" />
+      <div className="absolute inset-0 bg-gradient-to-br from-logic via-logic-dark to-logic" />
       <div className="absolute inset-0 grid-bg opacity-20" />
       <div className="absolute top-0 right-0 w-[500px] h-[500px] blob-indigo rounded-full opacity-20" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] blob-indigo rounded-full opacity-15" />
@@ -23,7 +23,7 @@ export function TopCTA() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center gap-2 text-base font-semibold bg-white text-navy px-8 py-4 rounded-xl hover:bg-cloud hover:-translate-y-0.5 transition-all shadow-lg"
+            className="inline-flex items-center justify-center gap-2 text-base font-semibold bg-white text-logic px-8 py-4 rounded-xl hover:bg-cloud hover:-translate-y-0.5 transition-all shadow-lg"
           >
             無料相談する
             <ArrowRight className="w-4 h-4" strokeWidth={2} />

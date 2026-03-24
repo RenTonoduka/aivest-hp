@@ -37,15 +37,15 @@ export function Hero() {
         ref={orbRef}
         className="absolute top-[10%] right-[5%] w-[500px] h-[500px] transition-transform duration-[3s] ease-out"
       >
-        <div className="w-full h-full blob-indigo rounded-full opacity-60" />
+        <div className="w-full h-full blob-warmth rounded-full opacity-60" />
       </div>
       <div className="absolute bottom-[5%] left-[5%] w-[400px] h-[400px] blob-emerald rounded-full opacity-40" />
-      <div className="absolute top-[40%] left-[30%] w-[300px] h-[300px] blob-navy rounded-full opacity-30" />
+      <div className="absolute top-[40%] left-[30%] w-[300px] h-[300px] blob-logic rounded-full opacity-30" />
 
       {/* Floating particles */}
-      <div className="absolute top-[20%] right-[20%] w-3 h-3 rounded-full bg-indigo/30 animate-float" />
-      <div className="absolute top-[60%] right-[10%] w-2 h-2 rounded-full bg-indigo-light/20 animate-float delay-200" />
-      <div className="absolute bottom-[30%] left-[15%] w-2.5 h-2.5 rounded-full bg-indigo-light/20 animate-float delay-400" />
+      <div className="absolute top-[20%] right-[20%] w-3 h-3 rounded-full bg-warmth/30 animate-float" />
+      <div className="absolute top-[60%] right-[10%] w-2 h-2 rounded-full bg-warmth-light/20 animate-float delay-200" />
+      <div className="absolute bottom-[30%] left-[15%] w-2.5 h-2.5 rounded-full bg-warmth-light/20 animate-float delay-400" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-28 pb-20 lg:pt-32 lg:pb-28">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -92,7 +92,7 @@ export function Hero() {
               ].map((stat, i) => (
                 <div key={stat.label} className="flex items-center gap-3">
                   {i > 0 && (
-                    <div className="w-px h-8 bg-navy/10 -ml-4" />
+                    <div className="w-px h-8 bg-logic/10 -ml-4" />
                   )}
                   <div>
                     <div className="text-2xl font-black gradient-text leading-none">
@@ -112,11 +112,11 @@ export function Hero() {
             {/* Main glass card */}
             <div className="relative glass-card rounded-3xl p-8 lg:p-10">
               {/* Glow behind card */}
-              <div className="absolute -inset-4 bg-gradient-to-br from-indigo/10 via-indigo-light/5 to-navy/10 rounded-[2rem] blur-2xl -z-10" />
+              <div className="absolute -inset-4 bg-gradient-to-br from-warmth/10 via-warmth-light/5 to-logic/10 rounded-[2rem] blur-2xl -z-10" />
 
               {/* Header */}
               <div className="flex items-center gap-3 mb-8">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-navy to-navy-light flex items-center justify-center">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-logic to-logic-light flex items-center justify-center">
                   <BrainCircuit className="w-5 h-5 text-white" strokeWidth={1.5} />
                 </div>
                 <div>

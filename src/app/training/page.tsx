@@ -14,7 +14,7 @@ export default function TrainingPage() {
       <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-20">
         <div className="absolute inset-0 bg-gradient-to-br from-background via-cloud to-background" />
         <div className="absolute inset-0 grid-bg" />
-        <div className="absolute top-0 right-0 w-[400px] h-[400px] blob-navy rounded-full opacity-40" />
+        <div className="absolute top-0 right-0 w-[400px] h-[400px] blob-logic rounded-full opacity-40" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">

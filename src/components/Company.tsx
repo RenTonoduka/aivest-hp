@@ -10,7 +10,7 @@ export function Company() {
   return (
     <section id="company" className="relative py-28 lg:py-36">
       <div className="absolute inset-0 grid-bg" />
-      <div className="absolute top-0 left-1/4 w-[400px] h-[400px] blob-navy rounded-full opacity-30" />
+      <div className="absolute top-0 left-1/4 w-[400px] h-[400px] blob-logic rounded-full opacity-30" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">

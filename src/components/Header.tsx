@@ -26,7 +26,7 @@ export function Header() {
       <div
         className={`max-w-6xl mx-auto rounded-2xl transition-all duration-500 ${
           scrolled
-            ? "bg-white/80 backdrop-blur-xl shadow-lg shadow-navy/5 border border-white/60"
+            ? "bg-white/80 backdrop-blur-xl shadow-lg shadow-logic/5 border border-white/60"
             : "bg-white/50 backdrop-blur-md border border-white/30"
         }`}
       >
@@ -41,14 +41,14 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-[13px] font-medium text-foreground/60 hover:text-indigo transition-colors duration-200"
+                className="text-[13px] font-medium text-foreground/60 hover:text-warmth transition-colors duration-200"
               >
                 {link.label}
               </Link>
             ))}
             <Link
               href="/contact"
-              className="text-[13px] font-semibold text-white bg-navy px-5 py-2 rounded-xl hover:bg-navy-light hover:shadow-md hover:shadow-navy/15 hover:-translate-y-0.5 transition-all duration-300"
+              className="text-[13px] font-semibold text-white bg-logic px-5 py-2 rounded-xl hover:bg-logic-light hover:shadow-md hover:shadow-logic/15 hover:-translate-y-0.5 transition-all duration-300"
             >
               無料相談
             </Link>
@@ -86,7 +86,7 @@ export function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="block py-2.5 px-3 rounded-lg text-sm font-medium text-foreground/60 hover:text-indigo hover:bg-indigo/5 transition-all"
+                  className="block py-2.5 px-3 rounded-lg text-sm font-medium text-foreground/60 hover:text-warmth hover:bg-warmth/5 transition-all"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.label}
@@ -94,7 +94,7 @@ export function Header() {
               ))}
               <Link
                 href="/contact"
-                className="block text-center text-sm font-semibold text-white bg-navy py-2.5 rounded-xl mt-3"
+                className="block text-center text-sm font-semibold text-white bg-logic py-2.5 rounded-xl mt-3"
                 onClick={() => setIsOpen(false)}
               >
                 無料相談

@@ -27,11 +27,11 @@ const testimonials = [
 export function Testimonials() {
   return (
     <section id="testimonials" className="relative py-28 lg:py-36">
-      <div className="absolute top-0 right-1/4 w-[400px] h-[400px] blob-indigo rounded-full opacity-40" />
+      <div className="absolute top-0 right-1/4 w-[400px] h-[400px] blob-warmth rounded-full opacity-40" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-warmth mb-4">
             Testimonials
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">
@@ -49,7 +49,7 @@ export function Testimonials() {
                 {Array.from({ length: item.rating }).map((_, i) => (
                   <Star
                     key={i}
-                    className="w-4 h-4 text-indigo fill-indigo"
+                    className="w-4 h-4 text-warmth fill-warmth"
                     strokeWidth={0}
                   />
                 ))}

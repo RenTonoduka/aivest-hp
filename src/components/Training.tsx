@@ -14,8 +14,8 @@ export function Training() {
         "実務タスクでの活用ワークショップ",
         "チーム開発ワークフローへの統合",
       ],
-      gradient: "from-navy to-navy-light",
-      badgeColor: "bg-navy",
+      gradient: "from-logic to-logic-light",
+      badgeColor: "bg-logic",
     },
     {
       badge: "NEW",
@@ -51,7 +51,7 @@ export function Training() {
 
   return (
     <section id="training" className="relative py-28 lg:py-36">
-      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] blob-navy rounded-full opacity-40" />
+      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] blob-logic rounded-full opacity-40" />
       <div className="absolute top-20 left-0 w-[400px] h-[400px] blob-indigo rounded-full opacity-30" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -109,7 +109,7 @@ export function Training() {
 
                 <a
                   href="/contact"
-                  className="block text-center text-sm font-semibold py-2.5 rounded-xl border border-navy/12 text-navy hover:bg-navy/5 transition-colors"
+                  className="block text-center text-sm font-semibold py-2.5 rounded-xl border border-logic/12 text-logic hover:bg-logic/5 transition-colors"
                 >
                   詳細を相談する
                 </a>
