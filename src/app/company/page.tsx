@@ -17,7 +17,7 @@ export default function CompanyPage() {
         <div className="absolute top-0 left-1/4 w-[400px] h-[400px] blob-navy rounded-full opacity-30" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-navy-light mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
             Company
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">

@@ -19,37 +19,37 @@ const services = [
     Icon: BarChart3,
     title: "AI経営支援",
     description: "データ分析からAI戦略策定まで、経営判断にAIを組み込みます。",
-    gradient: "from-lime to-lime-light",
+    gradient: "from-indigo to-indigo-light",
   },
   {
     Icon: GraduationCap,
     title: "AIエージェント研修",
     description: "実務直結のハンズオン形式で確実にスキルを定着させます。",
-    gradient: "from-navy-light to-lime-dark",
+    gradient: "from-indigo-dark to-indigo",
   },
   {
     Icon: Terminal,
     title: "Claude Code 実践研修",
     description: "AIコーディングツールで開発生産性を劇的に向上。",
-    gradient: "from-navy to-lime-dark",
+    gradient: "from-navy to-indigo-dark",
   },
   {
     Icon: Users,
     title: "AIエージェント導入顧問",
     description: "AI導入の戦略設計から運用定着まで経営目線で伴走。",
-    gradient: "from-lime-dark to-navy",
+    gradient: "from-indigo-dark to-navy",
   },
 ];
 
 export function ServicesOverview() {
   return (
     <section className="relative py-28 lg:py-36">
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] blob-lime rounded-full opacity-50" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] blob-indigo rounded-full opacity-50" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] blob-navy rounded-full opacity-50" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-lime-dark mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
             Services
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">
@@ -85,7 +85,7 @@ export function ServicesOverview() {
         <div className="text-center">
           <Link
             href="/services"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-navy hover:text-lime-dark transition-colors"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-navy hover:text-indigo transition-colors"
           >
             サービス詳細を見る
             <ArrowRight className="w-4 h-4" strokeWidth={2} />

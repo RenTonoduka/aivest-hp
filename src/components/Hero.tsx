@@ -37,15 +37,15 @@ export function Hero() {
         ref={orbRef}
         className="absolute top-[10%] right-[5%] w-[500px] h-[500px] transition-transform duration-[3s] ease-out"
       >
-        <div className="w-full h-full blob-lime rounded-full opacity-60" />
+        <div className="w-full h-full blob-indigo rounded-full opacity-60" />
       </div>
-      <div className="absolute bottom-[5%] left-[5%] w-[400px] h-[400px] blob-amber rounded-full opacity-40" />
+      <div className="absolute bottom-[5%] left-[5%] w-[400px] h-[400px] blob-emerald rounded-full opacity-40" />
       <div className="absolute top-[40%] left-[30%] w-[300px] h-[300px] blob-navy rounded-full opacity-30" />
 
       {/* Floating particles */}
-      <div className="absolute top-[20%] right-[20%] w-3 h-3 rounded-full bg-lime/30 animate-float" />
-      <div className="absolute top-[60%] right-[10%] w-2 h-2 rounded-full bg-navy/30 animate-float delay-200" />
-      <div className="absolute bottom-[30%] left-[15%] w-2.5 h-2.5 rounded-full bg-navy/30 animate-float delay-400" />
+      <div className="absolute top-[20%] right-[20%] w-3 h-3 rounded-full bg-indigo/30 animate-float" />
+      <div className="absolute top-[60%] right-[10%] w-2 h-2 rounded-full bg-indigo-light/20 animate-float delay-200" />
+      <div className="absolute bottom-[30%] left-[15%] w-2.5 h-2.5 rounded-full bg-indigo-light/20 animate-float delay-400" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-28 pb-20 lg:pt-32 lg:pb-28">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -112,7 +112,7 @@ export function Hero() {
             {/* Main glass card */}
             <div className="relative glass-card rounded-3xl p-8 lg:p-10">
               {/* Glow behind card */}
-              <div className="absolute -inset-4 bg-gradient-to-br from-navy/10 via-lime/5 to-navy/10 rounded-[2rem] blur-2xl -z-10" />
+              <div className="absolute -inset-4 bg-gradient-to-br from-indigo/10 via-indigo-light/5 to-navy/10 rounded-[2rem] blur-2xl -z-10" />
 
               {/* Header */}
               <div className="flex items-center gap-3 mb-8">
@@ -124,7 +124,7 @@ export function Hero() {
                   <div className="text-[11px] text-slate">AI-Powered Business Solutions</div>
                 </div>
                 <div className="ml-auto flex gap-1.5">
-                  <span className="w-2.5 h-2.5 rounded-full bg-lime" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-emerald" />
                   <span className="w-2.5 h-2.5 rounded-full bg-navy-light" />
                   <span className="w-2.5 h-2.5 rounded-full bg-navy/20" />
                 </div>
@@ -137,7 +137,7 @@ export function Hero() {
                     icon: Bot,
                     label: "AIエージェント開発",
                     status: "稼働中",
-                    statusColor: "bg-lime",
+                    statusColor: "bg-emerald",
                     progress: 92,
                   },
                   {
@@ -151,7 +151,7 @@ export function Hero() {
                     icon: Workflow,
                     label: "業務自動化",
                     status: "最適化中",
-                    statusColor: "bg-lime-dark",
+                    statusColor: "bg-indigo-dark",
                     progress: 85,
                   },
                 ].map((item) => (
@@ -159,7 +159,7 @@ export function Hero() {
                     key={item.label}
                     className="flex items-center gap-4 bg-white/50 rounded-xl px-4 py-3.5 border border-foreground/5"
                   >
-                    <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-navy/8 to-lime/8 flex items-center justify-center flex-shrink-0">
+                    <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-indigo/8 to-indigo-light/8 flex items-center justify-center flex-shrink-0">
                       <item.icon className="w-4.5 h-4.5 text-navy" strokeWidth={1.5} />
                     </div>
                     <div className="flex-1 min-w-0">
@@ -168,7 +168,7 @@ export function Hero() {
                       </div>
                       <div className="w-full h-1.5 bg-navy/5 rounded-full overflow-hidden">
                         <div
-                          className="h-full rounded-full bg-gradient-to-r from-navy to-lime"
+                          className="h-full rounded-full bg-gradient-to-r from-navy to-indigo"
                           style={{ width: `${item.progress}%` }}
                         />
                       </div>

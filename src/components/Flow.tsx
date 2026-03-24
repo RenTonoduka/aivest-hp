@@ -21,7 +21,7 @@ const steps = [
     title: "調査・ご提案",
     description:
       "業務フローを分析し、最適なAI活用プランをご提案。期待される効果とROIを明確にした計画書をお渡しします。",
-    gradient: "from-lime to-lime-light",
+    gradient: "from-indigo to-indigo-light",
   },
   {
     Icon: Rocket,
@@ -29,7 +29,7 @@ const steps = [
     title: "開発・導入",
     description:
       "アジャイル開発で素早くプロトタイプを構築。フィードバックを取り入れながら、実用レベルまで短期間で仕上げます。",
-    gradient: "from-navy-light to-lime",
+    gradient: "from-indigo to-indigo-light",
   },
   {
     Icon: Settings,
@@ -37,7 +37,7 @@ const steps = [
     title: "運用・改善",
     description:
       "導入後もデータを分析しながら継続的に改善。研修や社内サポート体制の構築まで、長期的に伴走します。",
-    gradient: "from-lime-dark to-navy-light",
+    gradient: "from-indigo-dark to-navy-light",
   },
 ];
 
@@ -45,11 +45,11 @@ export function Flow() {
   return (
     <section id="flow" className="relative py-28 lg:py-36">
       <div className="absolute inset-0 grid-bg" />
-      <div className="absolute top-20 right-0 w-[400px] h-[400px] blob-lime rounded-full opacity-40" />
+      <div className="absolute top-20 right-0 w-[400px] h-[400px] blob-indigo rounded-full opacity-40" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-lime-dark mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
             Flow
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">

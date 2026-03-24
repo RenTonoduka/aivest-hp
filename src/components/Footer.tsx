@@ -32,7 +32,7 @@ export function Footer() {
                 <li key={item}>
                   <Link
                     href="/services"
-                    className="text-sm text-charcoal hover:text-navy transition-colors"
+                    className="text-sm text-charcoal hover:text-indigo transition-colors"
                   >
                     {item}
                   </Link>
@@ -55,7 +55,7 @@ export function Footer() {
                 <li key={item.label}>
                   <Link
                     href={item.href}
-                    className="text-sm text-charcoal hover:text-navy transition-colors"
+                    className="text-sm text-charcoal hover:text-indigo transition-colors"
                   >
                     {item.label}
                   </Link>

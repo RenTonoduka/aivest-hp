@@ -14,10 +14,10 @@ export default function ContactPage() {
       <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-20">
         <div className="absolute inset-0 bg-gradient-to-br from-background via-cloud to-background" />
         <div className="absolute inset-0 grid-bg" />
-        <div className="absolute top-0 right-0 w-[400px] h-[400px] blob-lime rounded-full opacity-30" />
+        <div className="absolute top-0 right-0 w-[400px] h-[400px] blob-indigo rounded-full opacity-30" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-lime-dark mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
             Contact
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">

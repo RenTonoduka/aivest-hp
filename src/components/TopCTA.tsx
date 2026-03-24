@@ -6,8 +6,8 @@ export function TopCTA() {
     <section className="relative py-28 lg:py-36 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-dark to-navy" />
       <div className="absolute inset-0 grid-bg opacity-20" />
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] blob-lime rounded-full opacity-20" />
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] blob-amber rounded-full opacity-15" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] blob-indigo rounded-full opacity-20" />
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] blob-indigo rounded-full opacity-15" />
 
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6">

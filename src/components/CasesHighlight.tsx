@@ -16,7 +16,7 @@ const cases = [
     title: "品質検査AIで不良率を90%削減",
     metric: "-90%",
     metricLabel: "不良率削減",
-    gradient: "from-lime to-lime-light",
+    gradient: "from-indigo to-indigo-light",
   },
   {
     Icon: ShoppingBag,
@@ -24,18 +24,18 @@ const cases = [
     title: "AIカスタマーサポートで対応時間1/3",
     metric: "1/3",
     metricLabel: "対応時間短縮",
-    gradient: "from-navy-light to-lime",
+    gradient: "from-indigo to-indigo-light",
   },
 ];
 
 export function CasesHighlight() {
   return (
     <section className="relative py-28 lg:py-36">
-      <div className="absolute top-0 left-0 w-[500px] h-[500px] blob-amber rounded-full opacity-40" />
+      <div className="absolute top-0 left-0 w-[500px] h-[500px] blob-indigo rounded-full opacity-40" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-navy-light mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
             Case Studies
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">
@@ -74,7 +74,7 @@ export function CasesHighlight() {
         <div className="text-center">
           <Link
             href="/cases"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-navy hover:text-lime-dark transition-colors"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-navy hover:text-indigo transition-colors"
           >
             すべての導入事例を見る
             <ArrowRight className="w-4 h-4" strokeWidth={2} />

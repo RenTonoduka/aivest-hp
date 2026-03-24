@@ -1,25 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  /* Brand Colors */
-  --navy: #1B2A4A;
-  --navy-light: #2A3F6B;
-  --navy-dark: #111D33;
-  --lime: #7CB518;
-  --lime-light: #9BD635;
-  --lime-dark: #5E8A12;
-  --amber: #E8920D;
-  --amber-light: #F5A623;
-  --amber-dark: #C47A0A;
-  --gold: #E8C516;
+  /* Brand Colors — AIVEST Identity */
+  /* Deep Navy: 知性・信頼・深い思考 */
+  --navy: #0F172A;
+  --navy-light: #1E293B;
+  --navy-dark: #020617;
+  /* Indigo: 革新・テクノロジー・先進性 */
+  --indigo: #4F46E5;
+  --indigo-light: #818CF8;
+  --indigo-dark: #3730A3;
+  /* Emerald: 成長・成果・成功（スポットカラー） */
+  --emerald: #10B981;
+  --emerald-light: #34D399;
+  --emerald-dark: #059669;
 
   /* Neutral */
   --background: #FAFBFC;
-  --foreground: #1A1A2E;
-  --charcoal: #3D3D5C;
-  --slate: #6B7280;
-  --silver: #D1D5DB;
-  --cloud: #F3F4F6;
+  --foreground: #0F172A;
+  --charcoal: #475569;
+  --slate: #94A3B8;
+  --silver: #CBD5E1;
+  --cloud: #F1F5F9;
 
   /* Semantic */
   --success: #059669;
@@ -27,7 +29,7 @@
   --error: #DC2626;
   --info: #2563EB;
 
-  --border: rgba(27, 42, 74, 0.08);
+  --border: rgba(15, 23, 42, 0.06);
 }
 
 @theme inline {
@@ -36,13 +38,12 @@
   --color-navy: var(--navy);
   --color-navy-light: var(--navy-light);
   --color-navy-dark: var(--navy-dark);
-  --color-lime: var(--lime);
-  --color-lime-light: var(--lime-light);
-  --color-lime-dark: var(--lime-dark);
-  --color-amber: var(--amber);
-  --color-amber-light: var(--amber-light);
-  --color-amber-dark: var(--amber-dark);
-  --color-gold: var(--gold);
+  --color-indigo: var(--indigo);
+  --color-indigo-light: var(--indigo-light);
+  --color-indigo-dark: var(--indigo-dark);
+  --color-emerald: var(--emerald);
+  --color-emerald-light: var(--emerald-light);
+  --color-emerald-dark: var(--emerald-dark);
   --color-charcoal: var(--charcoal);
   --color-slate: var(--slate);
   --color-silver: var(--silver);
@@ -122,7 +123,7 @@ html {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 8px 32px rgba(27, 42, 74, 0.06);
+  box-shadow: 0 8px 32px rgba(15, 23, 42, 0.06);
 }
 
 .glass-card {
@@ -130,20 +131,20 @@ html {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.4);
-  box-shadow: 0 4px 24px rgba(27, 42, 74, 0.05);
+  box-shadow: 0 4px 24px rgba(15, 23, 42, 0.05);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .glass-card:hover {
   background: rgba(255, 255, 255, 0.75);
-  border-color: rgba(124, 181, 24, 0.3);
+  border-color: rgba(79, 70, 229, 0.2);
   transform: translateY(-6px);
-  box-shadow: 0 20px 48px rgba(27, 42, 74, 0.1);
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.1);
 }
 
-/* Brand gradient text — Navy → Lime */
+/* Brand gradient text — Navy → Indigo */
 .gradient-text {
-  background: linear-gradient(135deg, #1B2A4A, #2A3F6B, #7CB518);
+  background: linear-gradient(135deg, #4F46E5, #818CF8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -152,74 +153,70 @@ html {
 /* Grid pattern background */
 .grid-bg {
   background-image:
-    radial-gradient(circle at 1px 1px, rgba(27, 42, 74, 0.04) 1px, transparent 0);
+    radial-gradient(circle at 1px 1px, rgba(15, 23, 42, 0.03) 1px, transparent 0);
   background-size: 40px 40px;
 }
 
 /* Blob backgrounds */
-.blob-lime {
-  background: radial-gradient(circle, rgba(124, 181, 24, 0.10) 0%, transparent 70%);
+.blob-indigo {
+  background: radial-gradient(circle, rgba(79, 70, 229, 0.08) 0%, transparent 70%);
 }
 
 .blob-navy {
-  background: radial-gradient(circle, rgba(27, 42, 74, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(15, 23, 42, 0.05) 0%, transparent 70%);
 }
 
-.blob-amber {
-  background: radial-gradient(circle, rgba(232, 146, 13, 0.08) 0%, transparent 70%);
-}
-
-.blob-gold {
-  background: radial-gradient(circle, rgba(232, 197, 22, 0.06) 0%, transparent 70%);
+.blob-emerald {
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.06) 0%, transparent 70%);
 }
 
 /* Button styles */
 .btn-primary {
-  background: #1B2A4A;
+  background: #0F172A;
   color: #FAFBFC;
   font-weight: 600;
   padding: 14px 36px;
   border-radius: 12px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 16px rgba(27, 42, 74, 0.25);
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.25);
 }
 
 .btn-primary:hover {
-  background: #2A3F6B;
+  background: #1E293B;
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(27, 42, 74, 0.35);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.35);
 }
 
 .btn-secondary {
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(12px);
-  color: #1B2A4A;
+  color: #0F172A;
   font-weight: 600;
   padding: 14px 36px;
   border-radius: 12px;
-  border: 1px solid rgba(27, 42, 74, 0.12);
+  border: 1px solid rgba(15, 23, 42, 0.10);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.9);
-  border-color: rgba(124, 181, 24, 0.4);
+  border-color: rgba(79, 70, 229, 0.3);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(27, 42, 74, 0.08);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
 }
 
 /* Brand gradient button (CTA) */
 .btn-gradient {
-  background: linear-gradient(135deg, #1B2A4A, #2A3F6B, #7CB518);
-  color: #1A1A2E;
+  background: linear-gradient(135deg, #4F46E5, #818CF8);
+  color: #FFFFFF;
   font-weight: 700;
   padding: 14px 36px;
   border-radius: 12px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 16px rgba(124, 181, 24, 0.25);
+  box-shadow: 0 4px 16px rgba(79, 70, 229, 0.25);
 }
 
 .btn-gradient:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(124, 181, 24, 0.35);
+  box-shadow: 0 8px 24px rgba(79, 70, 229, 0.35);
 }

@@ -21,7 +21,7 @@ const services = [
     description:
       "データ分析からAI戦略策定まで、経営判断にAIを組み込みます。AIエージェントによるC-Suite体制で、CEOの意思決定をリアルタイムにサポート。",
     tags: ["経営戦略", "データ分析", "意思決定支援"],
-    gradient: "from-lime to-lime-light",
+    gradient: "from-indigo to-indigo-light",
   },
   {
     Icon: GraduationCap,
@@ -29,7 +29,7 @@ const services = [
     description:
       "実務で即戦力となるAIエージェント活用スキルを習得。座学だけでなく、実際の業務課題を使ったハンズオン形式で確実にスキルを定着させます。",
     tags: ["ハンズオン", "実務直結", "チーム研修"],
-    gradient: "from-navy-light to-lime-dark",
+    gradient: "from-indigo-dark to-indigo",
   },
   {
     Icon: Terminal,
@@ -37,7 +37,7 @@ const services = [
     description:
       "AIコーディングツールClaude Codeの実践的な使い方を徹底指導。プロンプトエンジニアリングからワークフロー自動化まで、開発生産性を劇的に向上させます。",
     tags: ["Claude Code", "開発効率化", "実践型"],
-    gradient: "from-navy to-lime-dark",
+    gradient: "from-navy to-indigo-dark",
   },
   {
     Icon: Users,
@@ -45,19 +45,19 @@ const services = [
     description:
       "AI導入の戦略設計から運用定着まで伴走。技術選定、ベンダー評価、社内体制構築、効果測定まで、経営目線でAI活用を成功に導きます。",
     tags: ["伴走支援", "戦略設計", "運用定着"],
-    gradient: "from-lime-dark to-navy",
+    gradient: "from-indigo-dark to-navy",
   },
 ];
 
 export function Services() {
   return (
     <section id="services" className="relative py-28 lg:py-36">
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] blob-lime rounded-full opacity-50" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] blob-indigo rounded-full opacity-50" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] blob-navy rounded-full opacity-50" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-lime-dark mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
             Services
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">

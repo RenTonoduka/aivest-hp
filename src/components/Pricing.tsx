@@ -29,7 +29,7 @@ const plans = [
       "月次レポート・改善提案",
     ],
     cta: "相談する",
-    gradient: "from-lime to-lime-light",
+    gradient: "from-indigo to-indigo-light",
     featured: true,
   },
   {
@@ -44,7 +44,7 @@ const plans = [
       "社内体制構築サポート",
     ],
     cta: "相談する",
-    gradient: "from-navy-light to-lime",
+    gradient: "from-indigo to-indigo-light",
     featured: false,
   },
 ];
@@ -52,12 +52,12 @@ const plans = [
 export function Pricing() {
   return (
     <section id="pricing" className="relative py-28 lg:py-36">
-      <div className="absolute top-0 left-0 w-[500px] h-[500px] blob-lime rounded-full opacity-40" />
-      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] blob-amber rounded-full opacity-30" />
+      <div className="absolute top-0 left-0 w-[500px] h-[500px] blob-indigo rounded-full opacity-40" />
+      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] blob-emerald rounded-full opacity-30" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-lime-dark mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
             Pricing
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">
@@ -75,11 +75,11 @@ export function Pricing() {
             <div
               key={plan.name}
               className={`glass-card rounded-2xl overflow-hidden ${
-                plan.featured ? "ring-2 ring-lime/40 lg:scale-105" : ""
+                plan.featured ? "ring-2 ring-indigo/30 lg:scale-105" : ""
               }`}
             >
               {plan.featured && (
-                <div className="bg-gradient-to-r from-lime to-lime-light text-center py-1.5">
+                <div className="bg-gradient-to-r from-indigo to-indigo-light text-center py-1.5">
                   <span className="text-[10px] font-bold tracking-wider text-white uppercase">
                     Most Popular
                   </span>
@@ -103,7 +103,7 @@ export function Pricing() {
                       className="flex items-start gap-2.5 text-sm text-charcoal"
                     >
                       <Check
-                        className="w-4 h-4 mt-0.5 text-lime flex-shrink-0"
+                        className="w-4 h-4 mt-0.5 text-emerald flex-shrink-0"
                         strokeWidth={2.5}
                       />
                       {feature}
