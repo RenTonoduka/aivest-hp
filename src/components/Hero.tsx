@@ -51,21 +51,6 @@ export function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left: Text */}
           <div>
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2.5 glass rounded-full px-5 py-2 mb-8 animate-fade-in-up opacity-0">
-              <Image
-                src="/logo.png"
-                alt=""
-                width={20}
-                height={20}
-                className="w-5 h-5"
-              />
-              <span className="text-xs font-semibold text-navy tracking-wide">
-                AI経営支援のパイオニア
-              </span>
-              <span className="w-1.5 h-1.5 rounded-full bg-lime animate-pulse" />
-            </div>
-
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-[64px] font-black leading-[1.08] tracking-tight mb-6 animate-fade-in-up opacity-0 delay-100">
               <span className="text-foreground">構想から実装まで</span>
