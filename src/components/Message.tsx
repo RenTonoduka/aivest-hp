@@ -4,11 +4,11 @@ export function Message() {
   return (
     <section id="message" className="relative py-28 lg:py-36 overflow-hidden">
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] blob-logic rounded-full opacity-30" />
-      <div className="absolute top-0 right-0 w-[400px] h-[400px] blob-indigo rounded-full opacity-30" />
+      <div className="absolute top-0 right-0 w-[400px] h-[400px] blob-warmth rounded-full opacity-30" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-warmth mb-4">
             Message
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
@@ -20,7 +20,7 @@ export function Message() {
           <div className="flex flex-col md:flex-row gap-10 items-start">
             {/* Photo */}
             <div className="flex-shrink-0 mx-auto md:mx-0">
-              <div className="w-40 h-40 rounded-2xl bg-gradient-to-br from-indigo/10 to-indigo-light/10 flex items-center justify-center overflow-hidden">
+              <div className="w-40 h-40 rounded-2xl bg-gradient-to-br from-warmth/10 to-warmth-light/10 flex items-center justify-center overflow-hidden">
                 <Image
                   src="/logo.png"
                   alt="代表取締役 戸野塚 蓮"

@@ -31,13 +31,13 @@ export function Contact() {
 
   return (
     <section id="contact" className="relative py-28 lg:py-36">
-      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] blob-indigo rounded-full opacity-40" />
+      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] blob-warmth rounded-full opacity-40" />
       <div className="absolute top-0 left-0 w-[400px] h-[400px] blob-emerald rounded-full opacity-30" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           <div>
-            <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
+            <span className="inline-block text-xs font-semibold tracking-widest uppercase text-warmth mb-4">
               Contact
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
@@ -54,7 +54,7 @@ export function Contact() {
             <div className="space-y-6">
               {benefits.map((item) => (
                 <div key={item.title} className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo/8 to-indigo-light/8 flex items-center justify-center text-logic flex-shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-warmth/8 to-warmth-light/8 flex items-center justify-center text-logic flex-shrink-0">
                     <item.Icon className="w-5 h-5" strokeWidth={1.5} />
                   </div>
                   <div>
@@ -69,7 +69,7 @@ export function Contact() {
           <div className="glass-card rounded-2xl p-8">
             {submitted ? (
               <div className="text-center py-12">
-                <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-indigo/20 to-indigo-light/20 flex items-center justify-center mb-5">
+                <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-warmth/20 to-warmth-light/20 flex items-center justify-center mb-5">
                   <Check className="w-8 h-8 text-emerald" strokeWidth={2} />
                 </div>
                 <h3 className="text-xl font-bold mb-2">送信完了</h3>

@@ -29,8 +29,8 @@ export function Training() {
         "プロンプトエンジニアリング実践",
         "部門別ユースケースワークショップ",
       ],
-      gradient: "from-indigo to-indigo-light",
-      badgeColor: "bg-indigo",
+      gradient: "from-warmth to-warmth-light",
+      badgeColor: "bg-warmth",
     },
     {
       badge: "EXECUTIVE",
@@ -44,19 +44,19 @@ export function Training() {
         "自社に最適なAI活用ロードマップ策定",
         "リスク管理とガバナンス体制構築",
       ],
-      gradient: "from-indigo to-indigo-light",
-      badgeColor: "bg-indigo",
+      gradient: "from-warmth to-warmth-light",
+      badgeColor: "bg-warmth",
     },
   ];
 
   return (
     <section id="training" className="relative py-28 lg:py-36">
       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] blob-logic rounded-full opacity-40" />
-      <div className="absolute top-20 left-0 w-[400px] h-[400px] blob-indigo rounded-full opacity-30" />
+      <div className="absolute top-20 left-0 w-[400px] h-[400px] blob-warmth rounded-full opacity-30" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-warmth mb-4">
             Training Programs
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">

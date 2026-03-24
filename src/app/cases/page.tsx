@@ -18,7 +18,7 @@ export default function CasesPage() {
         <div className="absolute top-0 left-0 w-[400px] h-[400px] blob-warmth rounded-full opacity-40" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-indigo mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-warmth mb-4">
             Case Studies
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">

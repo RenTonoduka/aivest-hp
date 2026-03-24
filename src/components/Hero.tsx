@@ -125,8 +125,8 @@ export function Hero() {
                 </div>
                 <div className="ml-auto flex gap-1.5">
                   <span className="w-2.5 h-2.5 rounded-full bg-emerald" />
-                  <span className="w-2.5 h-2.5 rounded-full bg-navy-light" />
-                  <span className="w-2.5 h-2.5 rounded-full bg-navy/20" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-logic-light" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-logic/20" />
                 </div>
               </div>
 
@@ -144,7 +144,7 @@ export function Hero() {
                     icon: TrendingUp,
                     label: "AI経営支援",
                     status: "分析中",
-                    statusColor: "bg-navy-light",
+                    statusColor: "bg-logic-light",
                     progress: 78,
                   },
                   {
