@@ -151,7 +151,7 @@ export function Hero() {
                     icon: Workflow,
                     label: "業務自動化",
                     status: "最適化中",
-                    statusColor: "bg-indigo-dark",
+                    statusColor: "bg-warmth-dark",
                     progress: 85,
                   },
                 ].map((item) => (
