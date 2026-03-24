@@ -168,7 +168,7 @@ export function Hero() {
                       </div>
                       <div className="w-full h-1.5 bg-navy/5 rounded-full overflow-hidden">
                         <div
-                          className="h-full rounded-full bg-gradient-to-r from-lime to-amber"
+                          className="h-full rounded-full bg-gradient-to-r from-navy to-lime"
                           style={{ width: `${item.progress}%` }}
                         />
                       </div>

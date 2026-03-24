@@ -141,17 +141,9 @@ html {
   box-shadow: 0 20px 48px rgba(27, 42, 74, 0.1);
 }
 
-/* Brand gradient text — Lime → Gold → Amber */
+/* Brand gradient text — Navy → Lime */
 .gradient-text {
-  background: linear-gradient(135deg, #7CB518, #E8C516, #E8920D);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* Navy → Lime gradient text */
-.gradient-text-navy {
-  background: linear-gradient(135deg, #1B2A4A, #2A3F6B);
+  background: linear-gradient(135deg, #1B2A4A, #2A3F6B, #7CB518);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -218,7 +210,7 @@ html {
 
 /* Brand gradient button (CTA) */
 .btn-gradient {
-  background: linear-gradient(135deg, #7CB518, #E8C516, #E8920D);
+  background: linear-gradient(135deg, #1B2A4A, #2A3F6B, #7CB518);
   color: #1A1A2E;
   font-weight: 700;
   padding: 14px 36px;
