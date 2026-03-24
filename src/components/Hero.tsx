@@ -44,8 +44,8 @@ export function Hero() {
 
       {/* Floating particles */}
       <div className="absolute top-[20%] right-[20%] w-3 h-3 rounded-full bg-lime/30 animate-float" />
-      <div className="absolute top-[60%] right-[10%] w-2 h-2 rounded-full bg-amber/30 animate-float delay-200" />
-      <div className="absolute bottom-[30%] left-[15%] w-2.5 h-2.5 rounded-full bg-gold/30 animate-float delay-400" />
+      <div className="absolute top-[60%] right-[10%] w-2 h-2 rounded-full bg-navy/30 animate-float delay-200" />
+      <div className="absolute bottom-[30%] left-[15%] w-2.5 h-2.5 rounded-full bg-navy/30 animate-float delay-400" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-28 pb-20 lg:pt-32 lg:pb-28">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -112,7 +112,7 @@ export function Hero() {
             {/* Main glass card */}
             <div className="relative glass-card rounded-3xl p-8 lg:p-10">
               {/* Glow behind card */}
-              <div className="absolute -inset-4 bg-gradient-to-br from-lime/10 via-amber/5 to-navy/10 rounded-[2rem] blur-2xl -z-10" />
+              <div className="absolute -inset-4 bg-gradient-to-br from-navy/10 via-lime/5 to-navy/10 rounded-[2rem] blur-2xl -z-10" />
 
               {/* Header */}
               <div className="flex items-center gap-3 mb-8">
@@ -125,7 +125,7 @@ export function Hero() {
                 </div>
                 <div className="ml-auto flex gap-1.5">
                   <span className="w-2.5 h-2.5 rounded-full bg-lime" />
-                  <span className="w-2.5 h-2.5 rounded-full bg-amber" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-navy-light" />
                   <span className="w-2.5 h-2.5 rounded-full bg-navy/20" />
                 </div>
               </div>
@@ -144,14 +144,14 @@ export function Hero() {
                     icon: TrendingUp,
                     label: "AI経営支援",
                     status: "分析中",
-                    statusColor: "bg-amber",
+                    statusColor: "bg-navy-light",
                     progress: 78,
                   },
                   {
                     icon: Workflow,
                     label: "業務自動化",
                     status: "最適化中",
-                    statusColor: "bg-gold",
+                    statusColor: "bg-lime-dark",
                     progress: 85,
                   },
                 ].map((item) => (
@@ -203,7 +203,7 @@ export function Hero() {
             {/* Floating mini card - bottom left */}
             <div className="absolute -bottom-3 -left-3 glass rounded-xl px-4 py-3 shadow-lg animate-float delay-200">
               <div className="flex items-center gap-2">
-                <Zap className="w-4 h-4 text-amber" strokeWidth={2} />
+                <Zap className="w-4 h-4 text-navy-light" strokeWidth={2} />
                 <span className="text-xs font-semibold text-foreground">
                   24h以内に返信
                 </span>

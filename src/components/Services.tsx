@@ -29,7 +29,7 @@ const services = [
     description:
       "実務で即戦力となるAIエージェント活用スキルを習得。座学だけでなく、実際の業務課題を使ったハンズオン形式で確実にスキルを定着させます。",
     tags: ["ハンズオン", "実務直結", "チーム研修"],
-    gradient: "from-amber to-amber-light",
+    gradient: "from-navy-light to-lime-dark",
   },
   {
     Icon: Terminal,
@@ -45,7 +45,7 @@ const services = [
     description:
       "AI導入の戦略設計から運用定着まで伴走。技術選定、ベンダー評価、社内体制構築、効果測定まで、経営目線でAI活用を成功に導きます。",
     tags: ["伴走支援", "戦略設計", "運用定着"],
-    gradient: "from-lime-dark to-amber",
+    gradient: "from-lime-dark to-navy",
   },
 ];
 

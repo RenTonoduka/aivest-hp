@@ -44,8 +44,8 @@ export function Training() {
         "自社に最適なAI活用ロードマップ策定",
         "リスク管理とガバナンス体制構築",
       ],
-      gradient: "from-amber to-gold",
-      badgeColor: "bg-amber",
+      gradient: "from-navy-light to-lime",
+      badgeColor: "bg-navy-light",
     },
   ];
 

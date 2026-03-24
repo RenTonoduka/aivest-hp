@@ -44,7 +44,7 @@ const plans = [
       "社内体制構築サポート",
     ],
     cta: "相談する",
-    gradient: "from-amber to-gold",
+    gradient: "from-navy-light to-lime",
     featured: false,
   },
 ];

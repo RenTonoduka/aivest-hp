@@ -69,7 +69,7 @@ export function Contact() {
           <div className="glass-card rounded-2xl p-8">
             {submitted ? (
               <div className="text-center py-12">
-                <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-lime/20 to-gold/20 flex items-center justify-center mb-5">
+                <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-lime/20 to-navy/20 flex items-center justify-center mb-5">
                   <Check className="w-8 h-8 text-lime" strokeWidth={2} />
                 </div>
                 <h3 className="text-xl font-bold mb-2">送信完了</h3>

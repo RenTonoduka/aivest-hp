@@ -38,7 +38,7 @@ const cases = [
       { label: "対応時間", value: "1/3", },
       { label: "顧客満足度", value: "+42%" },
     ],
-    gradient: "from-amber to-gold",
+    gradient: "from-navy-light to-lime",
   },
 ];
 
@@ -50,7 +50,7 @@ export function CaseStudies() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-amber mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-navy-light mb-4">
             Case Studies
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">

@@ -12,21 +12,21 @@ export function Features() {
       title: "最新技術をキャッチアップ",
       description:
         "Claude・GPT・Geminiなど、日々進化するAI技術を常にキャッチアップ。最新のモデルやツールチェーンを活用し、最も効果的なソリューションを提案します。",
-      gradient: "from-lime to-gold",
+      gradient: "from-lime to-navy-light",
     },
     {
       num: "03",
       title: "実務で使える研修プログラム",
       description:
         "座学だけで終わらない実践型カリキュラム。参加者の実際の業務課題を題材にハンズオンで取り組み、研修翌日から業務に活かせるスキルを確実に身につけます。",
-      gradient: "from-gold to-amber",
+      gradient: "from-lime-dark to-navy-light",
     },
     {
       num: "04",
       title: "経営視点でのAI活用",
       description:
         "技術だけでなく経営インパクトを重視。ROIを意識したAI導入計画と、組織全体でのAI活用を推進するチェンジマネジメントまで、経営者目線でサポートします。",
-      gradient: "from-amber to-navy",
+      gradient: "from-navy-light to-navy",
     },
   ];
 
@@ -37,7 +37,7 @@ export function Features() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-amber mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-navy-light mb-4">
             Why AIVEST
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">

@@ -31,7 +31,7 @@ export function Testimonials() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-gold mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-lime-dark mb-4">
             Testimonials
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">
@@ -49,7 +49,7 @@ export function Testimonials() {
                 {Array.from({ length: item.rating }).map((_, i) => (
                   <Star
                     key={i}
-                    className="w-4 h-4 text-amber fill-amber"
+                    className="w-4 h-4 text-lime fill-lime"
                     strokeWidth={0}
                   />
                 ))}

@@ -25,7 +25,7 @@ const services = [
     Icon: GraduationCap,
     title: "AIエージェント研修",
     description: "実務直結のハンズオン形式で確実にスキルを定着させます。",
-    gradient: "from-amber to-amber-light",
+    gradient: "from-navy-light to-lime-dark",
   },
   {
     Icon: Terminal,
@@ -37,7 +37,7 @@ const services = [
     Icon: Users,
     title: "AIエージェント導入顧問",
     description: "AI導入の戦略設計から運用定着まで経営目線で伴走。",
-    gradient: "from-lime-dark to-amber",
+    gradient: "from-lime-dark to-navy",
   },
 ];
 

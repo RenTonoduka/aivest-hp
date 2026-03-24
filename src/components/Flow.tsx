@@ -29,7 +29,7 @@ const steps = [
     title: "開発・導入",
     description:
       "アジャイル開発で素早くプロトタイプを構築。フィードバックを取り入れながら、実用レベルまで短期間で仕上げます。",
-    gradient: "from-amber to-gold",
+    gradient: "from-navy-light to-lime",
   },
   {
     Icon: Settings,
@@ -37,7 +37,7 @@ const steps = [
     title: "運用・改善",
     description:
       "導入後もデータを分析しながら継続的に改善。研修や社内サポート体制の構築まで、長期的に伴走します。",
-    gradient: "from-gold to-amber",
+    gradient: "from-lime-dark to-navy-light",
   },
 ];
 
