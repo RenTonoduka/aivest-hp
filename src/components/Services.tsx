@@ -13,7 +13,7 @@ const services = [
     description:
       "業務プロセスを自動化するAIエージェントをオーダーメイドで開発。ChatGPT・Claude・Geminiなど最新モデルを活用し、貴社の業務に最適なソリューションを構築します。",
     tags: ["カスタム開発", "業務自動化", "マルチモデル"],
-    gradient: "from-accent-blue to-blue-400",
+    gradient: "from-navy to-navy-light",
   },
   {
     Icon: BarChart3,
@@ -21,7 +21,7 @@ const services = [
     description:
       "データ分析からAI戦略策定まで、経営判断にAIを組み込みます。AIエージェントによるC-Suite体制で、CEOの意思決定をリアルタイムにサポート。",
     tags: ["経営戦略", "データ分析", "意思決定支援"],
-    gradient: "from-accent-green to-emerald-400",
+    gradient: "from-lime to-lime-light",
   },
   {
     Icon: GraduationCap,
@@ -29,7 +29,7 @@ const services = [
     description:
       "実務で即戦力となるAIエージェント活用スキルを習得。座学だけでなく、実際の業務課題を使ったハンズオン形式で確実にスキルを定着させます。",
     tags: ["ハンズオン", "実務直結", "チーム研修"],
-    gradient: "from-accent-yellow to-amber-400",
+    gradient: "from-amber to-amber-light",
   },
   {
     Icon: Terminal,
@@ -37,7 +37,7 @@ const services = [
     description:
       "AIコーディングツールClaude Codeの実践的な使い方を徹底指導。プロンプトエンジニアリングからワークフロー自動化まで、開発生産性を劇的に向上させます。",
     tags: ["Claude Code", "開発効率化", "実践型"],
-    gradient: "from-purple-500 to-accent-blue",
+    gradient: "from-navy to-lime-dark",
   },
   {
     Icon: Users,
@@ -45,26 +45,26 @@ const services = [
     description:
       "AI導入の戦略設計から運用定着まで伴走。技術選定、ベンダー評価、社内体制構築、効果測定まで、経営目線でAI活用を成功に導きます。",
     tags: ["伴走支援", "戦略設計", "運用定着"],
-    gradient: "from-accent-green to-accent-blue",
+    gradient: "from-lime-dark to-amber",
   },
 ];
 
 export function Services() {
   return (
     <section id="services" className="relative py-28 lg:py-36">
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] blob-green rounded-full opacity-50" />
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] blob-blue rounded-full opacity-50" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] blob-lime rounded-full opacity-50" />
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] blob-navy rounded-full opacity-50" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-accent-blue mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-lime-dark mb-4">
             Services
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-5">
             AIの力で、
             <span className="gradient-text">ビジネスを変革</span>
           </h2>
-          <p className="text-foreground/50 leading-relaxed">
+          <p className="text-charcoal leading-relaxed">
             開発・経営支援・研修・導入顧問まで、
             AI活用のすべてをワンストップで提供します。
           </p>
@@ -84,14 +84,14 @@ export function Services() {
                 <service.Icon className="w-6 h-6" strokeWidth={1.8} />
               </div>
               <h3 className="text-lg font-bold mb-3">{service.title}</h3>
-              <p className="text-sm text-foreground/50 leading-relaxed mb-5">
+              <p className="text-sm text-charcoal leading-relaxed mb-5">
                 {service.description}
               </p>
               <div className="flex flex-wrap gap-2">
                 {service.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="text-[11px] font-medium px-2.5 py-1 rounded-full bg-accent-blue/5 text-accent-blue/70 border border-accent-blue/10"
+                    className="text-[11px] font-medium px-2.5 py-1 rounded-full bg-navy/5 text-navy/70 border border-navy/10"
                   >
                     {tag}
                   </span>

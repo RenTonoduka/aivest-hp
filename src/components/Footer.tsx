@@ -11,7 +11,7 @@ export function Footer() {
               <Image src="/logo.png" alt="AIVEST" width={32} height={32} className="w-8 h-8" />
               <span className="text-lg font-bold gradient-text">AIVEST</span>
             </Link>
-            <p className="text-sm text-foreground/50 leading-relaxed max-w-sm">
+            <p className="text-sm text-charcoal leading-relaxed max-w-sm">
               AIエージェント開発・AI経営支援・AI研修を通じて、
               企業のデジタルトランスフォーメーションを加速します。
             </p>
@@ -32,7 +32,7 @@ export function Footer() {
                 <li key={item}>
                   <a
                     href="#services"
-                    className="text-sm text-foreground/50 hover:text-accent-blue transition-colors"
+                    className="text-sm text-charcoal hover:text-navy transition-colors"
                   >
                     {item}
                   </a>
@@ -51,7 +51,7 @@ export function Footer() {
                   <li key={item}>
                     <a
                       href="#company"
-                      className="text-sm text-foreground/50 hover:text-accent-blue transition-colors"
+                      className="text-sm text-charcoal hover:text-navy transition-colors"
                     >
                       {item}
                     </a>
@@ -63,12 +63,12 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border/30 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-foreground/40">
+          <p className="text-xs text-slate">
             &copy; {new Date().getFullYear()} AIVEST. All rights reserved.
           </p>
-          <div className="flex items-center gap-1 text-xs text-foreground/30">
+          <div className="flex items-center gap-1 text-xs text-slate">
             <span>Powered by</span>
-            <span className="gradient-text-blue-green font-medium">AI</span>
+            <span className="gradient-text font-medium">AI</span>
           </div>
         </div>
       </div>
